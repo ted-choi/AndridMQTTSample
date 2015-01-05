@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+	<LinearLayout 
+	    android:id="@+id/btn"        
+        android:layout_width="300dp"
+        android:layout_height="100dp">
+        <ImageView
+	        android:id="@+id/imageView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="47dp"
+	        
+	        android:src="@drawable/cresprit" />
+	</LinearLayout>    
+    <FrameLayout 
+	    android:id="@+id/blank"        
+        android:layout_width="fill_parent"
+        android:layout_height="30dp">
+	</FrameLayout>
+
+    <LinearLayout 
+	    android:layout_gravity="left"     
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<TextView
+		   
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Server Uri"
+		    android:textColor ="#000000"/>
+			<LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+				android:orientation="horizontal">
+				<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="     "
+			    android:textColor ="#000000"/>		    
+			<EditText
+			    android:id="@+id/edtServerUri"
+			    android:layout_width="270dp"
+			    android:layout_height="wrap_content"
+			    android:inputType="textUri"
+			    android:ems="10" >
+			</EditText>
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="   "
+			    android:textColor ="#000000"/>
+			</LinearLayout>
+	</LinearLayout>
+<LinearLayout 
+	    android:layout_gravity="left"     
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"	   
+		android:orientation="vertical">
+		<TextView
+		
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Client ID"
+		    android:textColor ="#000000"/>
+	
+		<EditText
+		    android:id="@+id/edtClientid"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		 	android:inputType="textUri"
+		    android:ems="10" >
+		</EditText>
+	</LinearLayout>	
+    <LinearLayout 
+	    android:layout_gravity="left"     
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:orientation="vertical">    
+		<TextView
+		    android:id="@+id/textView2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="20dp"	 	    
+		    android:text="UserName"
+		    android:textColor ="#000000"/>
+		<EditText
+		    android:id="@+id/edtUsername"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="10dp"	    
+		    android:inputType="textUri"
+		    android:ems="10" />
+		</LinearLayout>
+
+        <LinearLayout 
+	    android:layout_gravity="left"     
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:orientation="vertical">   		
+	<TextView
+	    android:id="@+id/textView3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"	 	    
+	    android:text="Qos"
+	    android:textColor ="#000000"/>
+
+		
+	<RadioGroup
+            android:id="@+id/group"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:orientation="horizontal">
+          <RadioButton
+	        android:id="@+id/rBtn1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	         android:checked="true"
+	        android:text="@string/digit0"
+	        android:textColor ="#000000" />
+         <RadioButton
+	        android:id="@+id/rBtn2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/digit1"
+	        android:textColor ="#000000"  />
+	    <RadioButton
+	        android:id="@+id/rBtn3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/digit2" 
+	        android:textColor ="#000000" />
+	    </RadioGroup>
+	    </LinearLayout>
+    <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Connect"/>
+
+</LinearLayout>
+

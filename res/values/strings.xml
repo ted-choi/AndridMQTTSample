@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MQTT Client</string>
+    <string name="digit0">0</string>
+    <string name="digit1">1</string>
+    <string name="digit2">2</string>
+    <string name="find_passwd"><u>비밀번호 찾기</u></string>
+	<string name="signup"><u>Sign Up</u></string>
+	<string name="signin">Sign In</string>
+	<string name="example_email_account">admin@alooh.com</string>
+	<string name="id">ID</string>
+	<string name="passwd">Password</string>
+	<string name="insert_id">Please insert ID.</string>
+	<string name="insert_passwd">Please insert Password.</string>
+	<string name="invaild_email">Unable ID.</string>
+	<string name="invaild_password">비밀번호는 6~15자 이내로 입력하셔야 합니다.</string>
+	<string name="noti_wait_moment">Please wait for a while.</string>
+	<string name="login">Login</string>
+	<string name="error_different_passwd_eachother">Incorrect Password.</string>
+	<string name="noti_relogin_auth_email">인증되지 않은 사용자입니다.</string>
+	<string name="noti_not_find_email">We can\'t find the e-mail.</string>
+	
+	<string name="insert_client_id">Insert Client ID</string>
+	<string name="cannot_connect_server">Can\'t connect to MQTT Server</string>
+	<string name="insert_message">Insert Message</string>
+	<string name="publish_success">Publish Success</string>
+	<string name="publish_fail">Publish Fail</string>
+	<string name="choose_device_connecting">Please select a device.</string>
+	<string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="publish">PUBLISH</string>
+    <string name="subscribe">SUBSCRIBE</string>
+    <string name="connecting">Connection</string>
+    <string name="device">DEVICE</string>
+    <string name="project">PROJECT</string>
+    <string name="network_error">네트워크 에러</string>
+    <string name="server_error">서버에러</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dip"
+    android:layout_marginRight="20dip"
+    android:layout_marginTop="20dip"
+    android:paddingBottom="20dip"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#EEBBBBBB">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="right"
+        >
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="X"
+        android:layout_gravity="center"
+                />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp">"
+        "
+    <TextView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textStyle="bold"
+		android:textColor="#FF000000"
+		android:text="Product Name : "
+	    />
+	<TextView 
+	    android:id="@+id/product_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#FF000000"
+		/>
+	
+	</LinearLayout>
+	
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp">
+	
+    <TextView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#FF000000"
+		android:textStyle="bold"
+		android:text="Device Name : "
+	    />
+	<TextView 
+	    android:id="@+id/device_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#FF000000"
+	    />
+	</LinearLayout>
+	
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp">
+        <TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#FF000000"
+		android:textStyle="bold"
+		android:text="Auth Key :"
+	    />
+	<TextView 
+	    android:id="@+id/auth_key"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#FF000000"
+	    />
+	</LinearLayout>
+	
+    <Button
+        android:id="@+id/publish"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:text="@+string/publish"
+        android:gravity="center"        />
+
+    <Button
+        android:id="@+id/subscribe"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:text="@+string/subscribe"
+        android:gravity="center"        />
+
+</LinearLayout>
